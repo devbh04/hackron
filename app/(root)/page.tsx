@@ -4,7 +4,7 @@ import SideBar from "@/components/shared/sidebar";
 export default function Home() {
   return (
     <div className="flex">
-      <SideBar />
+      <SideBar/>
       <HeroSection/>
     </div>
   );

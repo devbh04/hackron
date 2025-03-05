@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.className} bg-cyan-50 h-screen text-black max-w-full`}
+        className={`${geistSans.className} h-screen text-black max-w-full`}
       >
         {children}
       </body>
